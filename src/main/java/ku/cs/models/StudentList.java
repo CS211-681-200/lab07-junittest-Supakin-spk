@@ -68,4 +68,5 @@ public class StudentList {
     public ArrayList<Student> getStudents() {
         return students;
     }
+    public int getSize() {return students.size();}
 }
